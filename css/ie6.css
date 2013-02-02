@@ -1,0 +1,22 @@
+
+#content {
+  overflow: hidden;
+}
+.form-item-search-block-form {
+  width: 50%;
+}
+.tabs ul.primary,
+.region-header .block-menu li a,
+.comment-form .form-item {
+  zoom: 1;
+}
+#block-search-form .form-item-search-block-form input {
+  width: 67%;
+}
+.node-teaser {
+  border-bottom: 1px solid #d3d7d9;
+}
+
+* html,* html body{background-image:url(about:blank);background-attachment:fixed}
+* html .ie6fixedTL{position:absolute;left:expression(eval(document.documentElement.scrollLeft));top:expression(eval(document.documentElement.scrollTop))}
+* html .ie6fixedBR{position:absolute;left:expression(eval(document.documentElement.scrollLeft+document.documentElement.clientWidth-this.offsetWidth)-(parseInt(this.currentStyle.marginLeft,10)||0)-(parseInt(this.currentStyle.marginRight,10)||0));top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)))}
