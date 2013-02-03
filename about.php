@@ -2,14 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>无标题文档</title>
+<title>Calling China</title>
 <link href="./css/style.css" type="text/css" rel="stylesheet" charset="utf-8" />
+<link href="./css/animation.css" type="text/css" rel="stylesheet" charset="utf-8" />
+<link href="./css/animate-custom.css" type="text/css" rel="stylesheet" charset="utf-8" />
 </head>
 
 <body>
 <div class="page-wrapper">
   <div class="header">
-    <div class="logo"></div>
+    <a class="logo" href="index.php"></a>
     <div class="tel_email">
       <h6>T +86 (21) 5302 5505</h6>
       <h6>publicasia@callingbrands.com</h6>
@@ -24,7 +26,7 @@
       <li><a href="services.php">SERVICES</a></li>
       <li><a href="team.php">TEAM</a></li>
       <li><a href="career.php">CAREER</a></li>
-      <li><a href="#">CONTACT</a></li>
+      <li><a href="contact.php">CONTACT</a></li>
     </ul>
   </div>
   
