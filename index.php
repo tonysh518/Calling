@@ -7,9 +7,12 @@
 <link href="./css/animation.css" type="text/css" rel="stylesheet" charset="utf-8" />
 <link href="./css/jpreloader.css" type="text/css" rel="stylesheet" charset="utf-8" />
 <link href="./css/animate-custom.css" type="text/css" rel="stylesheet" charset="utf-8" />
+<!--[if IE]>
+<link type="text/css" rel="stylesheet" href="./css/ie.css" />
+<![endif]-->
 </head>
 
-<body>
+<body style="display:none;">
 <div id="loadingpage_wrap">
     <div class="loading_logo"><img src="./images/ring.gif" width="650" height="433" /></div>
 </div>
@@ -19,11 +22,11 @@
     <a class="logo" href="index.php"></a>
     <div class="tel_email">
       <h6>T +86 (21) 5302 5505</h6>
-      <h6>publicasia@callingbrands.com</h6>
+      <h6><a href="mailto:publicasia@callingbrands.com">publicasia@callingbrands.com</a></h6>
     </div>
     <div class="en_cn">
       <h6>brand experts @ ENGINE</h6>
-      <h6>中文</h6>
+      <h6><a href="#">中文</a></h6>
     </div>
     <ul class="menu">
       <li><a href="about.php">ABOUT US</a></li>

@@ -1,4 +1,10 @@
+$('img,a').bind("contextmenu",function(e){
+	return false;
+});
 
+$('img,a').bind("mousedown",function(e){
+	return false;
+});
 
 
 $('.small_img').hover(function(){
@@ -13,11 +19,11 @@ $('.team_list').hoverIntent(function(){
 	var index = $.inArray(this,$('.team_list'));
 	$('.team_detail').eq(index).css({'left':left,'top':top}).stop().fadeIn();
 	$('#team_overlay').stop().fadeIn();
-},function(){});
+},300,function(){});
 
 $('.team_detail').mouseleave(function(){
-	$('.team_detail').stop().fadeOut();
-	$('#team_overlay').stop().fadeOut();
+	$('.team_detail').stop().fadeOut(300);
+	$('#team_overlay').stop().fadeOut(300);
 });
 
 $('#home_slider').cycle({ 
@@ -53,8 +59,10 @@ $('#home_slider').cycle({
 $(".career_more a").fancybox({
 	type: 'ajax',
 	padding: 30,
-	openEffect: 'elastic',
-	closeEffect: 'elastic',
+	openEffect: 'fade',
+	closeEffect: 'fade',
+	preload: true,
+	scrolling: 'auto',
 	helpers: {
 		title : {
 			type : 'outside'

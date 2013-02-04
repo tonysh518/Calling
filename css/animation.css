@@ -1,5 +1,8 @@
-.header .menu li a,
-.content_r dd a,
+.header a,
 .career .career_more a,
-.content_l .small_img
+.content_l .small_img,
+.content_l .big_img
 {-webkit-transition:all 0.3s ease-out;-moz-transition:all 0.3s ease-out;transition:all 0.3s ease-out;}
+
+.content_r dd a
+{-webkit-transition:color 0.3s ease-out;-moz-transition:color 0.3s ease-out;transition:color 0.3s ease-out;}
